@@ -28,7 +28,6 @@ function prependCat(){
 }
 function removeLastCat(){
     let newRemovedCatlist = cats.slice(0,2);
-    console.log(cats);
     return newRemovedCatlist;
 }
 function removeFirstCat(){
