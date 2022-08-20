@@ -18,12 +18,10 @@ function destructivelyRemoveLastCat(){
 }
 function appendCat(){
     let newCats = [...cats, "Broom"];
-    console.log(newCats);
     return newCats;
 }
 function prependCat(){
     let newCats1 = ["Arnold",...cats];
-    console.log(newCats1);
     return newCats1;
 }
 function removeLastCat(){
